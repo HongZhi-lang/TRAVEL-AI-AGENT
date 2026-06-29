@@ -1,0 +1,30 @@
+# backend/requirements.txt
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# AI Agent 核心
+langchain==0.1.0
+langgraph==0.0.20
+langchain-openai==0.0.5
+openai>=1.10.0,<2.0.0  # 改这里，允许1.10.0以上版本
+
+# 数据库
+sqlalchemy==2.0.25
+asyncpg==0.29.0
+alembic==1.13.0
+
+# 工具
+pydantic==2.5.3
+pydantic-settings==2.1.0
+httpx==0.26.0
+redis==5.0.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# 开发工具
+pytest==7.4.4
+black==23.12.1
+ruff==0.1.9
+mypy==1.8.0
