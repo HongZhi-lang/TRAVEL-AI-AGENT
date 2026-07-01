@@ -1,4 +1,4 @@
-# backend/requirements.txt
+# Web框架
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
 python-multipart==0.0.6
@@ -14,7 +14,7 @@ openai>=1.10.0,<2.0.0  # 改这里，允许1.10.0以上版本
 sqlalchemy==2.0.25
 asyncpg==0.29.0
 alembic==1.13.0
-
+psycopg2==2.9.12
 # 工具
 pydantic==2.5.3
 pydantic-settings==2.1.0

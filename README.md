@@ -118,7 +118,7 @@ docker-compose up -d --build
 # 检查端口占用
 netstat -ano | findstr :3000  # 前端
 netstat -ano | findstr :8000  # 后端API
-netstat -ano | findstr :5432  # PostgreSQL
+netstat -ano | findstr :5433  # PostgreSQL（Docker 默认映射）
 netstat -ano | findstr :6379  # Redis
 netstat -ano | findstr :5050  # pgAdmin
 
